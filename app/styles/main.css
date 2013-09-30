@@ -1,0 +1,8 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+div.bar{width:20px;border:1px solid red;float:left;margin-left:5px;background:blue;}
+.output{clear:both;padding:15px;}
