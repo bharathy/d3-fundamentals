@@ -85,6 +85,8 @@ d3.selectAll(".bar").data(dataSet).enter();
 d3.selectAll(".bar").exit().remove();
 ```
 
+![Alt text](/app/images/circle.png?raw=true)
+
 ###Transition
 Transitions gradually interpolate styles and attributes over time.
 .transition()
@@ -141,6 +143,8 @@ Transforms the SVG element from one state to other state.
 - scale( [])
 - matrix(a,b)
 
+![Alt text](/app/images/rectangle.png?raw=true)
+
 ###SVG Scales
 - Convert set of domains to certain range.
 - When we map data to SVG path, the path might go beyond the svg container space.To avoid this, we can scale the graphs to make sure it fits within the available space.
@@ -178,6 +182,8 @@ var xAxisGroup = svg.append("g")
   .call(xAxis);
 ```
 
+![Alt text](/app/images/axis.png?raw=true)
+
 ###Force Layout
 -It’s a way of representing data so that it individual data points share relationships to other data points via forces.
 - the force layout keeps a reference to the associated nodes and links internally.
@@ -196,6 +202,8 @@ var force = d3.layout.force()
                 .on('tick', tick)
                 .start();
 ```
+
+![Alt text](/app/images/force.png?raw=true)
 
 ###Force Layout - Details
 * Size() -  sets width and height of force layout.
@@ -248,6 +256,5 @@ http://techslides.com/over-1000-d3-js-examples-and-demos/
 http://vimeo.com/29458354
 
 
-![Alt text](/app/images/screenshot.png?raw=true)
+![Alt text](/app/images/icon.png?raw=true)
 
-![Alt text](/app/images/jasmine-screenshot.png?raw=true)
